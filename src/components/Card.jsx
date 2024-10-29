@@ -9,6 +9,7 @@ function Card({ id, allData }) {
         if (pokemon.currentTarget.dataset.index) {
             let pokemonSpecies = await getPokeAPI(`https://pokeapi.co/api/v2/evolution-chain/${pokemon.currentTarget.dataset.index}`)
             console.log(pokemonSpecies);
+            console.log(pokemonSpecies);
         }
     }
 
